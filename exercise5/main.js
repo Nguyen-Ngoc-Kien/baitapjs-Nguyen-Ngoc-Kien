@@ -60,7 +60,6 @@ function handleFiles(files) {
             };
             reader.readAsDataURL(file);
         } else {
-            index++;
             const imgAndIcons = document.createElement('div');
             imgAndIcons.classList.add('img-and-icons', 'preview-file'); 
 
