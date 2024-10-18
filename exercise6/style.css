@@ -1,0 +1,194 @@
+.container {
+    margin: auto;
+    width: 550px;
+    position: relative;
+}
+
+.add-new {
+    display: flex;
+    justify-content: center;
+}
+
+button.add-new {
+    background: #9393e7;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    width: 200px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.layer {
+    padding: 15px;
+    border: 1px dashed grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+button.edit {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background: #65d165;
+    width: 82px;
+    color: white;
+    cursor: pointer;
+}
+
+button.delete {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background: red;
+    width: 82px;
+    color: white;
+    cursor: pointer;
+}
+
+h3.title {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+p.text-content {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.cover{
+    border: 1px dashed grey;
+    padding: 15px;
+    margin-top: 13px;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+}
+
+.square-content {
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 9px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+h4.add-new {
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input.input-title {
+    width: 86%;
+    margin: auto;
+}
+
+textarea.input-content {
+    width: 83%;
+    margin: auto;
+    border: 1px solid #b08686;
+    height: 150px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+input.input-title {
+    width: 83%;
+    margin: auto;
+    border: 1px solid #b08686;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button.submit {
+    width: 20%;
+    margin-left: 34px;
+    margin-top: 15px;
+    border: none;
+    background: green;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.background-grey {
+    width: 100%;
+    height: 1000px;
+    background: #175e1775;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    visibility: hidden;
+}
+
+.wrap{
+    position: relative;
+}
+
+.modelAddNew {
+    position: absolute;
+    width: 100%;
+    top: 206px;
+    z-index: 10;
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible!important;
+}
+
+.modelFixNote {
+    position: absolute;
+    width: 100%;
+    top: 206px;
+    z-index: 10;
+    visibility: hidden;
+}
+
+button.submit-edit {
+    width: 20%;
+    margin-left: 34px;
+    margin-top: 15px;
+    border: none;
+    background: green;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.icon {
+    position: absolute;
+    right: 14px;
+    top: 13px;
+    font-size: 23px;
+    color: #7d7da9;
+    cursor: pointer;
+}

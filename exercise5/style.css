@@ -1,0 +1,83 @@
+.background-drag {
+    position: relative;
+    margin: 20px auto;
+    width: 800px;
+    border: 1px dashed;
+    min-height: 187px;
+    cursor: pointer;
+}
+
+input.file {
+    opacity: 0;
+}
+
+#previewContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 25px;
+}
+
+#previewContainer img {
+    width: 100px;                 
+    height: 100px;                
+    object-fit: cover;    
+    overflow: hidden;        
+}
+
+.img-and-icons{
+    position: relative;
+}
+
+.img-and-icons-red{
+    position: relative;
+}
+
+.icon-blue {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 19px;
+}
+.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: blue;
+    font-size: 21px;
+    z-index: 999;
+}
+
+span {
+    display: block;
+    width: 100px;
+    font-size: 14px;
+}
+
+.preview-file{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.preview-file {
+    background-color: red; 
+    color: white; 
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+.file-icon {
+    font-size: 50px; 
+}
+
+p.text-drop {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.display-none{
+    display: none;
+}

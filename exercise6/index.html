@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="add-new">
+                <button class="add-new">Add new Note</button>
+            </div>
+            <div class="content">
+                <div class="cover">
+                </div>
+            </div>
+            <div class="modelAddNew">
+                <div class="square-content">
+                    <h4 class="add-new">Add New Note</h4>
+                    <form onsubmit="return false">
+                        <input id="text-title" type="text" class="input-title">
+                        <textarea id="input-content" cols="50" rows="3" class="input-content"></textarea>
+                        <button class="submit">Save</button>
+                    </form>
+                    <div class="icon"><i class="fas fa-times-circle"></i></div>
+                </div>
+            </div>
+            <div class="modelFixNote">
+                <div class="square-content">
+                    <h4 class="add-new">Repair Note</h4>
+                    <form onsubmit="return false">
+                        <input id="edit-title" type="text" class="input-title"> <!-- Sửa ID thành edit-title -->
+                        <textarea id="edit-content" cols="50" rows="3" class="input-content"></textarea> <!-- Sửa ID thành edit-content -->
+                        <button class="submit-edit">Save</button>
+                    </form>
+                    <div class="icon"><i class="fas fa-times-circle"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="background-grey"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
