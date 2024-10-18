@@ -1,4 +1,3 @@
-// Khai báo các biến
 const btnAddNew = document.getElementsByClassName('add-new')[0];
 const bgBlur = document.getElementsByClassName('background-grey')[0];
 const modelAddNew = document.getElementsByClassName('modelAddNew')[0];
@@ -102,7 +101,6 @@ btnSubmitEdit.addEventListener('click', function () {
     if (editTitle.value.trim().length === 0 || editContent.value.trim().length === 0) {
         alert("Vui lòng điền đủ thông tin.");
     } else {
-        // Cập nhật nội dung ghi chú trong mảng notes
         notes[currentEditIndex] = {
             title: editTitle.value,
             content: editContent.value
@@ -110,10 +108,10 @@ btnSubmitEdit.addEventListener('click', function () {
 
         localStorage.setItem('notes', JSON.stringify(notes));
 
-        cover.innerHTML = ''; // Xóa tất cả các ghi chú hiện có trong DOM
-        loadNotes(); // Tải lại tất cả ghi chú từ localStorage vào DOM
+        cover.innerHTML = ''; 
+        loadNotes(); 
 
-        bgBlur.classList.remove('visible'); // Ẩn background mờ
-        modelFixNote.classList.remove('visible'); // Ẩn modal sửa
+        bgBlur.classList.remove('visible'); 
+        modelFixNote.classList.remove('visible'); 
     }
 });
